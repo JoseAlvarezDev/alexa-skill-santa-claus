@@ -2,23 +2,16 @@
     "name": "santa-claus-skill",
     "version": "1.0.0",
     "description": "Skill de Alexa de Santa Claus - Cuenta regresiva, carta a Santa, cuentos, trivial y más",
-    "main": "lambda/index.js",
+    "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [
-        "alexa",
-        "skill",
-        "santa",
-        "christmas",
-        "navidad"
-    ],
     "author": "Jose Alvarez Dev",
     "license": "MIT",
     "dependencies": {
         "ask-sdk-core": "^2.14.0",
         "ask-sdk-model": "^1.86.0",
-        "ask-sdk-dynamodb-persistence-adapter": "^2.14.0",
-        "axios": "^1.13.2"
+        "ask-sdk-s3-persistence-adapter": "^2.14.0",
+        "aws-sdk": "^2.326.0"
     }
 }

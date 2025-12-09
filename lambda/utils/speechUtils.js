@@ -2,14 +2,16 @@
  * Utilidades de voz y SSML para el skill de Santa Claus
  */
 
+// Sonidos de la biblioteca de Alexa (funcionan en dispositivos reales)
+// Si hay problemas en el simulador, estos se pueden desactivar temporalmente
 const SOUNDS = {
-    bells: '<audio src="soundbank://soundlibrary/bells/bells_background_01"/>',
-    hohoho: '<audio src="soundbank://soundlibrary/human/amzn_sfx_laughter_giggle_01"/>',
-    sleighBells: '<audio src="soundbank://soundlibrary/bells/bells_03"/>',
-    magic: '<audio src="soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_01"/>',
-    wind: '<audio src="soundbank://soundlibrary/weather/wind/wind_01"/>',
-    cheer: '<audio src="soundbank://soundlibrary/human/amzn_sfx_crowd_cheer_med_01"/>',
-    celebration: '<audio src="soundbank://soundlibrary/celebration/confetti_01"/>'
+    bells: '<audio src="soundbank://soundlibrary/ui/gameshow/amzn_ui_sfx_gameshow_intro_01"/>',
+    hohoho: '<audio src="soundbank://soundlibrary/human/amzn_sfx_crowd_applause_01"/>',
+    sleighBells: '<audio src="soundbank://soundlibrary/ui/gameshow/amzn_ui_sfx_gameshow_positive_response_02"/>',
+    magic: '<audio src="soundbank://soundlibrary/ui/gameshow/amzn_ui_sfx_gameshow_player1_01"/>',
+    wind: '<audio src="soundbank://soundlibrary/foley/amzn_sfx_swoosh_fast_1x_01"/>',
+    cheer: '<audio src="soundbank://soundlibrary/human/amzn_sfx_crowd_applause_01"/>',
+    celebration: '<audio src="soundbank://soundlibrary/musical/amzn_sfx_trumpet_bugle_03"/>'
 };
 
 /**

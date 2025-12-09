@@ -4,7 +4,7 @@
  */
 
 const Alexa = require('ask-sdk-core');
-const { DynamoDbPersistenceAdapter } = require('ask-sdk-dynamodb-persistence-adapter');
+const { S3PersistenceAdapter } = require('ask-sdk-s3-persistence-adapter');
 
 // Importar handlers
 const { CountdownHandler } = require('./handlers/countdownHandler');
@@ -22,13 +22,11 @@ const {
 } = require('./handlers/extrasHandler');
 
 const { SOUNDS, wrapSSML, pause, getRandomGreeting, getRandomFarewell } = require('./utils/speechUtils');
-const { updateVisitStats } = require('./utils/dynamoDBUtils');
 const { generateCountdownMessage } = require('./handlers/countdownHandler');
 
-// Adaptador de persistencia DynamoDB
-const persistenceAdapter = new DynamoDbPersistenceAdapter({
-    tableName: 'SantaClausSkillData',
-    createTable: true
+// Adaptador de persistencia S3 (Alexa-Hosted)
+const persistenceAdapter = new S3PersistenceAdapter({
+    bucketName: process.env.S3_PERSISTENCE_BUCKET
 });
 
 // Handler de Launch
@@ -37,23 +35,17 @@ const LaunchRequestHandler = {
         return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
     },
     async handle(handlerInput) {
-        const stats = await updateVisitStats(handlerInput);
         const countdown = generateCountdownMessage();
 
-        let welcome;
-        if (stats.visits === 1) {
-            welcome = `${SOUNDS.bells}${SOUNDS.sleighBells} ¡Ho Ho Ho! ¡Bienvenido al mundo mágico de Santa Claus! ${pause(300)} Soy tu asistente navideño y puedo hacer muchas cosas por ti. ${pause(200)}`;
-        } else {
-            welcome = `${SOUNDS.bells} ¡Ho Ho Ho! ${getRandomGreeting()} ¡Qué alegría verte de nuevo! Esta es tu visita número ${stats.visits}. ${pause(300)}`;
-        }
+        const welcome = `${SOUNDS.bells}${SOUNDS.sleighBells} ¡Ho Ho Ho! ¡Bienvenido al mundo mágico de Santa Claus! ${pause(300)} Soy tu asistente navideño y puedo hacer muchas cosas por ti. ${pause(200)}`;
 
         const countdownBrief = countdown.replace(SOUNDS.bells, '').replace(SOUNDS.sleighBells, '').substring(0, 150);
 
-        const options = `${pause(400)} Puedo ayudarte a escribir tu carta a Santa, contarte cuentos navideños, jugar trivia, abrir el calendario de adviento, rastrear a Santa, y mucho más. ${pause(300)} ¿Qué te gustaría hacer?`;
+        const options = `${pause(400)} Puedo ayudarte a escribir tu carta a Santa, contarte cuentos navideños, jugar trivial, abrir el calendario de adviento, rastrear a Santa, y mucho más. ${pause(300)} ¿Qué te gustaría hacer?`;
 
         return handlerInput.responseBuilder
             .speak(wrapSSML(welcome + countdownBrief + options))
-            .reprompt('Puedes decir: escribe mi carta, cuéntame un cuento, jugar trivia, abrir el adviento, o ¿cuánto falta para Navidad?')
+            .reprompt('Puedes decir: escribe mi carta, cuéntame un cuento, jugar trivial, abrir el adviento, o ¿cuánto falta para Navidad?')
             .getResponse();
     }
 };
