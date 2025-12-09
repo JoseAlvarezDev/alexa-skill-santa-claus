@@ -1,6 +1,6 @@
 # 🎅 Skill de Alexa: Santa Claus
 
-Un skill completo de Alexa para vivir la magia de la Navidad. Incluye cuenta regresiva, carta a Santa, cuentos navideños, trivia, calendario de adviento, seguimiento de Santa y mucho más.
+Un skill completo de Alexa para vivir la magia de la Navidad. Incluye cuenta regresiva, carta a Santa, cuentos navideños, trivial, calendario de adviento, seguimiento de Santa y mucho más.
 
 ## ✨ Funcionalidades
 
@@ -22,10 +22,10 @@ Un skill completo de Alexa para vivir la magia de la Navidad. Incluye cuenta reg
 - "Alexa, cuéntame un cuento de Navidad"
 - Seguimiento de cuentos ya escuchados
 
-### 🎮 Trivia Navideña
+### 🎮 Trivial Navideño
 - 15 preguntas sobre tradiciones navideñas
 - Sistema de puntuación persistente
-- "Alexa, juguemos trivia de Navidad"
+- "Alexa, juguemos trivial navideño"
 
 ### 🦌 Seguimiento de Santa
 - "Alexa, ¿dónde está Santa ahora?"
@@ -121,7 +121,7 @@ El skill creará automáticamente la tabla `SantaClausSkillData`.
 | Añadir regalo | "Añade una muñeca a mi carta" |
 | Leer carta | "Lee mi carta a Santa" |
 | Cuento | "Cuéntame un cuento de Navidad" |
-| Trivia | "Juguemos trivia navideña" |
+| Trivial | "Juguemos trivial navideño" |
 | Adviento | "Abre el calendario de adviento" |
 | Rastrear Santa | "¿Dónde está Santa ahora?" |
 | Lista buenos | "¿Estoy en la lista de niños buenos?" |
@@ -140,7 +140,7 @@ El skill utiliza la Sound Library de Alexa:
 
 El skill guarda en DynamoDB:
 - ✉️ Carta a Santa (regalos, fecha de envío)
-- 📊 Progreso de trivia (puntuación, preguntas respondidas)
+- 📊 Progreso del trivial (puntuación, preguntas respondidas)
 - 📚 Cuentos escuchados
 - 📅 Ventanas de adviento abiertas
 - 📈 Estadísticas de visitas
