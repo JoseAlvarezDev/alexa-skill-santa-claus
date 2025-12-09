@@ -5,9 +5,9 @@
                 "es-ES": {
                     "summary": "Tu compañero navideño: cuenta regresiva, carta a Santa, cuentos, trivial y mucho más",
                     "examplePhrases": [
-                        "Alexa, abre Santa Claus",
-                        "Alexa, pregunta a Santa Claus cuánto falta para Navidad",
-                        "Alexa, dile a Santa Claus que quiero escribir mi carta"
+                        "Alexa, abre Mi Santa Claus",
+                        "Alexa, pregunta a Mi Santa Claus cuánto falta para Navidad",
+                        "Alexa, dile a Mi Santa Claus que quiero escribir mi carta"
                     ],
                     "keywords": [
                         "navidad",
@@ -19,7 +19,7 @@
                         "cuentos",
                         "villancicos"
                     ],
-                    "name": "Santa Claus",
+                    "name": "Mi Santa Claus",
                     "description": "¡Vive la magia de la Navidad con Santa Claus! Este skill te ofrece:\n\n🎄 CUENTA REGRESIVA: Descubre cuánto falta para la noche mágica del 24 de diciembre.\n\n✉️ CARTA A SANTA: Escribe, escucha y modifica tu carta a Santa Claus. Guarda tu lista de deseos y Santa la recibirá.\n\n📚 CUENTOS NAVIDEÑOS: Disfruta de hermosas historias de Navidad con efectos de sonido.\n\n🎮 TRIVIAL NAVIDEÑO: Pon a prueba tus conocimientos sobre la Navidad.\n\n🦌 SEGUIMIENTO DE SANTA: El 24 de diciembre, sigue el viaje de Santa por el mundo.\n\n📅 CALENDARIO DE ADVIENTO: Abre una sorpresa cada día desde el 1 al 24 de diciembre.\n\n⭐ LISTA DE BUENOS: ¿Estás en la lista de niños buenos? ¡Descúbrelo!\n\n🎁 SUGERENCIAS DE REGALOS: Obtén ideas de regalos para tus seres queridos.\n\n¡Ho Ho Ho! ¡Feliz Navidad!",
                     "smallIconUri": "https://raw.githubusercontent.com/JoseAlvarezDev/alexa-skill-santa-claus/main/assets/logo108.png",
                     "largeIconUri": "https://raw.githubusercontent.com/JoseAlvarezDev/alexa-skill-santa-claus/main/assets/logo512.png"
@@ -27,9 +27,9 @@
                 "es-MX": {
                     "summary": "Tu compañero navideño: cuenta regresiva, carta a Santa, cuentos, trivial y mucho más",
                     "examplePhrases": [
-                        "Alexa, abre Santa Claus",
-                        "Alexa, pregunta a Santa Claus cuánto falta para Navidad",
-                        "Alexa, dile a Santa Claus que quiero escribir mi carta"
+                        "Alexa, abre Mi Santa Claus",
+                        "Alexa, pregunta a Mi Santa Claus cuánto falta para Navidad",
+                        "Alexa, dile a Mi Santa Claus que quiero escribir mi carta"
                     ],
                     "keywords": [
                         "navidad",
@@ -39,8 +39,28 @@
                         "cuenta regresiva",
                         "cuentos"
                     ],
-                    "name": "Santa Claus",
-                    "description": "¡Vive la magia de la Navidad con Santa Claus! Cuenta regresiva, carta a Santa, cuentos navideños, trivial, seguimiento de Santa y mucho más. ¡Ho Ho Ho!",
+                    "name": "Mi Santa Claus",
+                    "description": "¡Vive la magia de la Navidad con Mi Santa Claus! Cuenta regresiva, carta a Santa, cuentos navideños, trivial, seguimiento de Santa y mucho más. ¡Ho Ho Ho!",
+                    "smallIconUri": "https://raw.githubusercontent.com/JoseAlvarezDev/alexa-skill-santa-claus/main/assets/logo108.png",
+                    "largeIconUri": "https://raw.githubusercontent.com/JoseAlvarezDev/alexa-skill-santa-claus/main/assets/logo512.png"
+                },
+                "es-US": {
+                    "summary": "Tu compañero navideño: cuenta regresiva, carta a Santa, cuentos, trivial y mucho más",
+                    "examplePhrases": [
+                        "Alexa, abre Mi Santa Claus",
+                        "Alexa, pregunta a Mi Santa Claus cuánto falta para Navidad",
+                        "Alexa, dile a Mi Santa Claus que quiero escribir mi carta"
+                    ],
+                    "keywords": [
+                        "navidad",
+                        "santa claus",
+                        "regalos",
+                        "carta",
+                        "cuenta regresiva",
+                        "cuentos"
+                    ],
+                    "name": "Mi Santa Claus",
+                    "description": "¡Vive la magia de la Navidad con Mi Santa Claus! Cuenta regresiva, carta a Santa, cuentos navideños, trivial, seguimiento de Santa y mucho más. ¡Ho Ho Ho!",
                     "smallIconUri": "https://raw.githubusercontent.com/JoseAlvarezDev/alexa-skill-santa-claus/main/assets/logo108.png",
                     "largeIconUri": "https://raw.githubusercontent.com/JoseAlvarezDev/alexa-skill-santa-claus/main/assets/logo512.png"
                 }
@@ -65,6 +85,10 @@
                     "termsOfUseUrl": "https://josealvarezdev.github.io/alexa-skill-santa-claus/terms.html"
                 },
                 "es-MX": {
+                    "privacyPolicyUrl": "https://josealvarezdev.github.io/alexa-skill-santa-claus/privacy.html",
+                    "termsOfUseUrl": "https://josealvarezdev.github.io/alexa-skill-santa-claus/terms.html"
+                },
+                "es-US": {
                     "privacyPolicyUrl": "https://josealvarezdev.github.io/alexa-skill-santa-claus/privacy.html",
                     "termsOfUseUrl": "https://josealvarezdev.github.io/alexa-skill-santa-claus/terms.html"
                 }

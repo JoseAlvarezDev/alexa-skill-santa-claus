@@ -5,52 +5,52 @@ Un skill completo de Alexa para vivir la magia de la Navidad. Incluye cuenta reg
 ## ✨ Funcionalidades
 
 ### ⏰ Cuenta Regresiva a Navidad
-- "Alexa, ¿cuánto falta para Navidad?"
+- "Alexa, pregunta a Mi Santa Claus cuánto falta para Navidad"
 - Mensajes dinámicos según los días restantes
 - Actualizaciones especiales en Nochebuena
 
 ### ✉️ Carta a Santa Claus
-- **Escribir**: "Alexa, quiero escribir mi carta a Santa"
-- **Añadir regalos**: "Alexa, añade una bicicleta a mi carta"
-- **Leer**: "Alexa, lee mi carta a Santa"
-- **Modificar**: "Alexa, quiero cambiar mi carta"
-- **Eliminar regalos**: "Alexa, quita la bicicleta de mi lista"
-- **Enviar**: "Alexa, envía mi carta a Santa"
+- **Escribir**: "Alexa, dile a Mi Santa Claus que quiero escribir mi carta"
+- **Añadir regalos**: "Alexa, dile a Mi Santa Claus que añada una bicicleta a mi carta"
+- **Leer**: "Alexa, dile a Mi Santa Claus que lea mi carta"
+- **Modificar**: "Alexa, dile a Mi Santa Claus que quiero cambiar mi carta"
+- **Eliminar regalos**: "Alexa, dile a Mi Santa Claus que quite la bicicleta de mi lista"
+- **Enviar**: "Alexa, dile a Mi Santa Claus que envíe mi carta"
 
 ### 📚 Cuentos Navideños
 - 6 cuentos originales con efectos de sonido
-- "Alexa, cuéntame un cuento de Navidad"
+- "Alexa, pide a Mi Santa Claus que me cuente un cuento"
 - Seguimiento de cuentos ya escuchados
 
 ### 🎮 Trivial Navideño
 - 15 preguntas sobre tradiciones navideñas
 - Sistema de puntuación persistente
-- "Alexa, juguemos trivial navideño"
+- "Alexa, abre Mi Santa Claus y juguemos trivial"
 
 ### 🦌 Seguimiento de Santa
-- "Alexa, ¿dónde está Santa ahora?"
+- "Alexa, pregunta a Mi Santa Claus dónde está Santa ahora"
 - Ubicación dinámica según fecha/hora
 - Mensajes especiales el 24 de diciembre
 
 ### 📅 Calendario de Adviento
 - Una sorpresa cada día del 1 al 24 de diciembre
 - Chistes, datos curiosos, actividades y villancicos
-- "Alexa, abre el calendario de adviento"
+- "Alexa, abre Mi Santa Claus y abre el calendario de adviento"
 
 ### ⭐ Lista de Buenos/Traviesos
-- "Alexa, ¿estoy en la lista de niños buenos?"
+- "Alexa, pregunta a Mi Santa Claus si estoy en la lista de niños buenos"
 - Respuestas motivacionales de Santa
 
 ### 🎁 Sugerencias de Regalos
-- "Alexa, dame ideas de regalos para mamá"
+- "Alexa, pide a Mi Santa Claus ideas de regalos para mamá"
 - Sugerencias para: mamá, papá, hermanos, abuelos, amigos, pareja, etc.
 
 ### 💬 Mensajes de Santa
-- "Alexa, ¿qué dice Santa sobre mí?"
+- "Alexa, pregunta a Mi Santa Claus qué dice sobre mí"
 - Mensajes motivacionales personalizados
 
 ### 🔔 Sonidos Navideños
-- "Alexa, pon sonidos navideños"
+- "Alexa, pide a Mi Santa Claus sonidos navideños"
 - Cascabeles, campanas y más
 
 ## 🛠️ Estructura del Proyecto
@@ -115,7 +115,7 @@ El skill creará automáticamente la tabla `SantaClausSkillData`.
 
 | Funcionalidad | Frases |
 |---------------|--------|
-| Abrir skill | "Alexa, abre Santa Claus" |
+| Abrir skill | "Alexa, abre Mi Santa Claus" |
 | Cuenta regresiva | "¿Cuánto falta para Navidad?" |
 | Escribir carta | "Quiero escribir mi carta a Santa" |
 | Añadir regalo | "Añade una muñeca a mi carta" |

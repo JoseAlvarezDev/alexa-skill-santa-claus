@@ -37,18 +37,18 @@ const generateCountdownMessage = () => {
 
     // Es Nochebuena o justo después
     if (days === 0 && hours === 0 && minutes === 0) {
-        return `${SOUNDS.bells}${SOUNDS.celebration} ¡ES NOCHEBUENA! ${pause(300)} ¡La noche más mágica del año ha llegado! Santa Claus ya está preparando su trineo para volar por todo el mundo. ${pause(300)} ¡Ho Ho Ho! ¡Feliz Navidad! ${SOUNDS.sleighBells}`;
+        return `${SOUNDS.bells}${SOUNDS.celebration} ¡ES NOCHEBUENA! ${pause(300)} ¡La noche más mágica del año ha llegado! Mi Santa Claus ya está preparando su trineo para volar por todo el mundo. ${pause(300)} ¡Ho Ho Ho! ¡Feliz Navidad! ${SOUNDS.sleighBells}`;
     }
 
     if (isChristmasEve && hours > 0) {
-        return `${SOUNDS.sleighBells} ¡Hoy es Nochebuena! ${pause(300)} Faltan solo ${hours} horas y ${minutes} minutos para que Santa Claus comience su viaje mágico. ${pause(300)} ¡Prepara las galletas y la leche! ¡Ho Ho Ho! ${SOUNDS.magic}`;
+        return `${SOUNDS.sleighBells} ¡Hoy es Nochebuena! ${pause(300)} Faltan solo ${hours} horas y ${minutes} minutos para que Mi Santa Claus comience su viaje mágico. ${pause(300)} ¡Prepara las galletas y la leche! ¡Ho Ho Ho! ${SOUNDS.magic}`;
     }
 
     // Mensajes especiales según cuánto falte
     let message = '';
 
     if (days === 1) {
-        message = `${SOUNDS.bells} ¡Falta solo un día para Nochebuena! ${pause(300)} Los elfos están trabajando sin parar en el taller. ${pause(200)} En exactamente ${hours} horas y ${minutes} minutos, Santa Claus estará listo para volar. ${pause(300)} ¿Ya escribiste tu carta? ¡Ho Ho Ho!`;
+        message = `${SOUNDS.bells} ¡Falta solo un día para Nochebuena! ${pause(300)} Los elfos están trabajando sin parar en el taller. ${pause(200)} En exactamente ${hours} horas y ${minutes} minutos, Mi Santa Claus estará listo para volar. ${pause(300)} ¿Ya escribiste tu carta? ¡Ho Ho Ho!`;
     } else if (days <= 3) {
         message = `${SOUNDS.bells} ¡La Navidad está muy cerca! ${pause(300)} Faltan ${days} días, ${hours} horas y ${minutes} minutos para Nochebuena. ${pause(200)} Los renos ya están practicando sus vuelos. ¡Ho Ho Ho!`;
     } else if (days <= 7) {
@@ -58,7 +58,7 @@ const generateCountdownMessage = () => {
     } else if (days <= 24) {
         message = `Quedan ${days} días para Nochebuena. ${pause(200)} También quedan ${hours} horas y ${minutes} minutos. ${pause(300)} ¡Es el momento perfecto para empezar a decorar y escribir tu carta a Santa!`;
     } else {
-        message = `Faltan ${days} días para Nochebuena. ${pause(300)} Parece mucho tiempo, ¡pero para Santa Claus pasa volando! ${pause(200)} Los elfos ya empezaron a preparar los telescopios para ver quién se porta bien. ¡Ho Ho Ho!`;
+        message = `Faltan ${days} días para Nochebuena. ${pause(300)} Parece mucho tiempo, ¡pero para Mi Santa Claus pasa volando! ${pause(200)} Los elfos ya empezaron a preparar los telescopios para ver quién se porta bien. ¡Ho Ho Ho!`;
     }
 
     return message;
