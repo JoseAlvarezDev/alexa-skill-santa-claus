@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Cuántos renos tiene el trineo de Santa Claus originalmente?",
+            "options": [
+                "6",
+                "8",
+                "9",
+                "12"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Originalmente Santa tenía 8 renos. Rodolfo, el de la nariz roja, se añadió después en 1939."
+        },
+        {
+            "id": 2,
+            "question": "¿En qué país se originó la tradición del árbol de Navidad?",
+            "options": [
+                "Estados Unidos",
+                "Inglaterra",
+                "Alemania",
+                "Francia"
+            ],
+            "correctAnswer": 3,
+            "explanation": "La tradición del árbol de Navidad se originó en Alemania en el siglo XVI."
+        },
+        {
+            "id": 3,
+            "question": "¿Cómo se llaman los ayudantes de Santa Claus?",
+            "options": [
+                "Duendes",
+                "Elfos",
+                "Gnomos",
+                "Hadas"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los ayudantes de Santa son los elfos, que trabajan en su taller haciendo juguetes."
+        },
+        {
+            "id": 4,
+            "question": "¿Dónde vive Santa Claus según la tradición?",
+            "options": [
+                "Polo Sur",
+                "Alaska",
+                "Polo Norte",
+                "Siberia"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Santa Claus vive en el Polo Norte, donde tiene su taller y cuida a sus renos."
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es el nombre del reno de la nariz roja?",
+            "options": [
+                "Rudolph",
+                "Blitzen",
+                "Comet",
+                "Dasher"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Rudolph, conocido en español como Rodolfo, es el reno de la nariz roja que guía el trineo."
+        },
+        {
+            "id": 6,
+            "question": "¿Qué material se usa tradicionalmente para hacer galletas para Santa?",
+            "options": [
+                "Chocolate",
+                "Jengibre",
+                "Vainilla",
+                "Canela"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Las galletas de jengibre son tradicionales en Navidad, especialmente para dejar a Santa."
+        },
+        {
+            "id": 7,
+            "question": "¿Qué dejan los niños para los renos de Santa?",
+            "options": [
+                "Manzanas",
+                "Zanahorias",
+                "Heno",
+                "Galletas"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Tradicionalmente se dejan zanahorias para los renos de Santa junto con las galletas."
+        },
+        {
+            "id": 8,
+            "question": "¿De qué color era originalmente el traje de Santa Claus?",
+            "options": [
+                "Rojo",
+                "Verde",
+                "Azul",
+                "Marrón"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Antes de que Coca-Cola popularizara el rojo, Santa Claus a menudo se representaba con trajes verdes."
+        },
+        {
+            "id": 9,
+            "question": "¿Cuántos Reyes Magos fueron a visitar al niño Jesús?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los tres Reyes Magos fueron Melchor, Gaspar y Baltasar."
+        },
+        {
+            "id": 10,
+            "question": "¿Qué planta navideña se cuelga en las puertas para dar buena suerte?",
+            "options": [
+                "Acebo",
+                "Muérdago",
+                "Poinsettia",
+                "Abeto"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El muérdago se cuelga en las puertas y hay una tradición de besarse debajo de él."
+        },
+        {
+            "id": 11,
+            "question": "¿En qué fecha se celebra el Día de los Reyes Magos?",
+            "options": [
+                "25 de diciembre",
+                "6 de enero",
+                "1 de enero",
+                "24 de diciembre"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El Día de los Reyes Magos se celebra el 6 de enero en muchos países hispanohablantes."
+        },
+        {
+            "id": 12,
+            "question": "¿Cuál de estos NO es un villancico tradicional?",
+            "options": [
+                "Noche de Paz",
+                "Campana sobre campana",
+                "Feliz cumpleaños",
+                "Los peces en el río"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Feliz cumpleaños no es un villancico, es una canción para celebrar cumpleaños."
+        },
+        {
+            "id": 13,
+            "question": "¿Qué bebida caliente es tradicional en Navidad?",
+            "options": [
+                "Limonada",
+                "Chocolate caliente",
+                "Té helado",
+                "Café frío"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El chocolate caliente es una bebida tradicional navideña, especialmente popular con los niños."
+        },
+        {
+            "id": 14,
+            "question": "¿Cuántos días tiene el Calendario de Adviento?",
+            "options": [
+                "12",
+                "24",
+                "25",
+                "31"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El Calendario de Adviento tiene 24 ventanas, una para cada día desde el 1 hasta el 24 de diciembre."
+        },
+        {
+            "id": 15,
+            "question": "¿Cómo se llama el ballet famoso que se representa en Navidad?",
+            "options": [
+                "El Lago de los Cisnes",
+                "El Cascanueces",
+                "La Bella Durmiente",
+                "Cenicienta"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El Cascanueces es el ballet navideño más famoso, con música de Tchaikovsky."
+        }
+    ]
+}

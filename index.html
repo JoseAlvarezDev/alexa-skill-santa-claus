@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Santa Claus - Tu compañero navideño para Alexa. Cuenta regresiva, carta a Santa, cuentos, trivia y mucho más. ¡Ho Ho Ho!">
+    <meta name="keywords"
+        content="Alexa skill, Santa Claus, Navidad, Papa Noel, cuenta regresiva, carta a Santa, cuentos navideños">
+    <meta name="author" content="Jose Alvarez Dev">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Santa Claus - Skill de Alexa">
+    <meta property="og:description"
+        content="Vive la magia de la Navidad con Santa Claus. Cuenta regresiva, carta a Santa, cuentos y más.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/logo512.png">
+
+    <title>🎅 Santa Claus - Skill de Alexa | Tu Compañero Navideño</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo108.png">
+    <link rel="apple-touch-icon" href="assets/logo512.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Snowfall Effect -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo-container">
+                <img src="assets/logo108.png" alt="Santa Claus Logo" class="logo-img">
+                <span class="logo-text">Santa <span>Claus</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Funcionalidades</a></li>
+                <li><a href="#how-it-works">Cómo Funciona</a></li>
+                <li><a href="#commands">Comandos</a></li>
+                <li><a href="https://github.com/JoseAlvarezDev/alexa-skill-santa-claus" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <img src="assets/logo512.png" alt="Santa Claus Skill" class="hero-logo">
+            <h1 class="hero-title">
+                ¡Vive la Magia de la <span class="highlight">Navidad</span>!
+            </h1>
+            <p class="hero-subtitle">
+                Tu compañero navideño definitivo para Alexa. Cuenta regresiva hasta Nochebuena,
+                escribe tu carta a Santa, disfruta de cuentos mágicos, juega trivia y mucho más.
+            </p>
+            <a href="https://www.amazon.es/dp/TU_SKILL_ID" class="alexa-badge" target="_blank">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                </svg>
+                Activar en Alexa
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title">Funcionalidades Mágicas</h2>
+        <div class="features-grid">
+            <article class="feature-card">
+                <span class="feature-icon">⏰</span>
+                <h3 class="feature-title">Cuenta Regresiva</h3>
+                <p class="feature-description">
+                    Descubre cuántos días, horas y minutos faltan para la noche mágica del 24 de diciembre.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">✉️</span>
+                <h3 class="feature-title">Carta a Santa</h3>
+                <p class="feature-description">
+                    Escribe, lee y modifica tu carta a Santa Claus. Guarda tu lista de deseos y Santa la recibirá.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">📚</span>
+                <h3 class="feature-title">Cuentos Navideños</h3>
+                <p class="feature-description">
+                    Disfruta de hermosas historias de Navidad con efectos de sonido envolventes.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">🎮</span>
+                <h3 class="feature-title">Trivia Navideña</h3>
+                <p class="feature-description">
+                    Pon a prueba tus conocimientos sobre tradiciones y curiosidades de la Navidad.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">🦌</span>
+                <h3 class="feature-title">Seguimiento de Santa</h3>
+                <p class="feature-description">
+                    El 24 de diciembre, sigue el viaje de Santa por el mundo en tiempo real.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">📅</span>
+                <h3 class="feature-title">Calendario de Adviento</h3>
+                <p class="feature-description">
+                    Abre una sorpresa cada día desde el 1 al 24 de diciembre. Chistes, datos y villancicos.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">⭐</span>
+                <h3 class="feature-title">Lista de Buenos</h3>
+                <p class="feature-description">
+                    ¿Estás en la lista de niños buenos? ¡Descúbrelo con Santa!
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <span class="feature-icon">🎁</span>
+                <h3 class="feature-title">Sugerencias de Regalos</h3>
+                <p class="feature-description">
+                    Obtén ideas de regalos para mamá, papá, hermanos, abuelos y más.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Screenshot Section -->
+    <section class="screenshot-section">
+        <h2 class="section-title">Una Experiencia Mágica</h2>
+        <div class="screenshot-container">
+            <img src="assets/logo1024.png" alt="Santa Claus Skill Preview" class="screenshot-img">
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <h2 class="section-title">¿Cómo Funciona?</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3 class="step-title">Activa el Skill</h3>
+                <p class="step-text">Busca "Santa Claus" en la tienda de skills de Alexa y actívalo.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3 class="step-title">Di el Comando</h3>
+                <p class="step-text">Usa tu voz para interactuar con Santa.</p>
+                <span class="step-command">"Alexa, abre Santa Claus"</span>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3 class="step-title">¡Disfruta!</h3>
+                <p class="step-text">Explora todas las funcionalidades mágicas de la Navidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commands Section -->
+    <section class="commands-section" id="commands">
+        <h2 class="section-title">Comandos de Voz</h2>
+        <div class="commands-grid">
+            <div class="command-card">
+                <span class="command-emoji">🎄</span>
+                <div class="command-content">
+                    <h4>Abrir el Skill</h4>
+                    <p>"Alexa, abre Santa Claus"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">⏰</span>
+                <div class="command-content">
+                    <h4>Cuenta Regresiva</h4>
+                    <p>"¿Cuánto falta para Navidad?"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">✉️</span>
+                <div class="command-content">
+                    <h4>Escribir Carta</h4>
+                    <p>"Quiero escribir mi carta a Santa"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">➕</span>
+                <div class="command-content">
+                    <h4>Añadir Regalo</h4>
+                    <p>"Añade una bicicleta a mi carta"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">📖</span>
+                <div class="command-content">
+                    <h4>Leer Carta</h4>
+                    <p>"Lee mi carta a Santa"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">📚</span>
+                <div class="command-content">
+                    <h4>Cuento</h4>
+                    <p>"Cuéntame un cuento de Navidad"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">🎮</span>
+                <div class="command-content">
+                    <h4>Trivia</h4>
+                    <p>"Juguemos trivia navideña"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">📅</span>
+                <div class="command-content">
+                    <h4>Adviento</h4>
+                    <p>"Abre el calendario de adviento"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">🦌</span>
+                <div class="command-content">
+                    <h4>Rastrear a Santa</h4>
+                    <p>"¿Dónde está Santa ahora?"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">⭐</span>
+                <div class="command-content">
+                    <h4>Lista de Buenos</h4>
+                    <p>"¿Estoy en la lista de niños buenos?"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">🎁</span>
+                <div class="command-content">
+                    <h4>Ideas de Regalos</h4>
+                    <p>"Dame ideas de regalos para papá"</p>
+                </div>
+            </div>
+            <div class="command-card">
+                <span class="command-emoji">💬</span>
+                <div class="command-content">
+                    <h4>Mensaje de Santa</h4>
+                    <p>"¿Qué dice Santa sobre mí?"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section -->
+    <section class="github-section">
+        <h2 class="section-title">Código Abierto</h2>
+        <p style="color: rgba(255,255,255,0.7); margin-bottom: var(--spacing-lg);">
+            Este proyecto es de código abierto. ¡Contribuye o úsalo como inspiración!
+        </p>
+        <a href="https://github.com/JoseAlvarezDev/alexa-skill-santa-claus" class="github-link" target="_blank">
+            <svg viewBox="0 0 24 24">
+                <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+            </svg>
+            Ver en GitHub
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo108.png" alt="Santa Claus">
+                <span>Santa Claus</span>
+            </div>
+            <div class="footer-links">
+                <a href="privacy.html">Política de Privacidad</a>
+                <a href="terms.html">Términos de Uso</a>
+                <a href="https://github.com/JoseAlvarezDev/alexa-skill-santa-claus" target="_blank">GitHub</a>
+            </div>
+            <div class="footer-divider"></div>
+            <p class="footer-copyright">
+                © 2025 <a href="https://github.com/JoseAlvarezDev" target="_blank">Jose Alvarez Dev</a>. Todos los
+                derechos reservados.
+            </p>
+            <p class="footer-hoho">🎅 ¡Ho Ho Ho! ¡Feliz Navidad! 🎄</p>
+        </div>
+    </footer>
+</body>
+
+</html>

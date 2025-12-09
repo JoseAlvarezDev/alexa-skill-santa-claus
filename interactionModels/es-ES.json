@@ -1,0 +1,511 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "santa claus",
+            "intents": [
+                {
+                    "name": "CountdownIntent",
+                    "slots": [],
+                    "samples": [
+                        "cuánto falta para navidad",
+                        "cuántos días faltan para navidad",
+                        "cuánto queda para navidad",
+                        "días para navidad",
+                        "cuenta regresiva",
+                        "la cuenta regresiva",
+                        "dime la cuenta regresiva",
+                        "cuánto falta para nochebuena",
+                        "cuándo es navidad",
+                        "cuándo llega santa",
+                        "cuánto falta para que llegue santa"
+                    ]
+                },
+                {
+                    "name": "WriteLetterIntent",
+                    "slots": [],
+                    "samples": [
+                        "quiero escribir mi carta",
+                        "escribir carta a santa",
+                        "escribir mi carta a santa",
+                        "quiero escribir una carta",
+                        "ayúdame a escribir mi carta",
+                        "empezar mi carta",
+                        "nueva carta",
+                        "crear carta",
+                        "hacer mi carta a santa"
+                    ]
+                },
+                {
+                    "name": "AddGiftIntent",
+                    "slots": [
+                        {
+                            "name": "gift",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "quiero {gift}",
+                        "añade {gift}",
+                        "agregar {gift}",
+                        "pide {gift}",
+                        "pedir {gift}",
+                        "me gustaría {gift}",
+                        "pon {gift}",
+                        "escribe {gift}",
+                        "añadir {gift} a mi lista"
+                    ]
+                },
+                {
+                    "name": "ReadLetterIntent",
+                    "slots": [],
+                    "samples": [
+                        "lee mi carta",
+                        "leer mi carta",
+                        "escuchar mi carta",
+                        "qué dice mi carta",
+                        "léeme mi carta a santa",
+                        "quiero escuchar mi carta",
+                        "dime qué pedí",
+                        "cuál es mi lista de regalos",
+                        "qué hay en mi carta"
+                    ]
+                },
+                {
+                    "name": "ModifyLetterIntent",
+                    "slots": [],
+                    "samples": [
+                        "modificar mi carta",
+                        "cambiar mi carta",
+                        "editar mi carta",
+                        "quiero hacer cambios en mi carta",
+                        "cambiar mi lista",
+                        "modificar mi lista de regalos"
+                    ]
+                },
+                {
+                    "name": "RemoveGiftIntent",
+                    "slots": [
+                        {
+                            "name": "gift",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "quita {gift}",
+                        "elimina {gift}",
+                        "borra {gift}",
+                        "ya no quiero {gift}",
+                        "remove {gift}",
+                        "saca {gift} de mi lista"
+                    ]
+                },
+                {
+                    "name": "ClearLetterIntent",
+                    "slots": [],
+                    "samples": [
+                        "borrar mi carta",
+                        "eliminar mi carta",
+                        "empezar de nuevo",
+                        "limpiar mi carta",
+                        "borrar todo",
+                        "vaciar mi lista"
+                    ]
+                },
+                {
+                    "name": "SendLetterIntent",
+                    "slots": [],
+                    "samples": [
+                        "enviar mi carta",
+                        "mandar mi carta a santa",
+                        "envía mi carta",
+                        "mi carta está lista",
+                        "ya terminé mi carta",
+                        "entregar mi carta"
+                    ]
+                },
+                {
+                    "name": "TellStoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "cuéntame un cuento",
+                        "cuenta un cuento de navidad",
+                        "quiero escuchar un cuento",
+                        "una historia de navidad",
+                        "cuéntame una historia",
+                        "cuento navideño",
+                        "lee un cuento"
+                    ]
+                },
+                {
+                    "name": "NextStoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "otro cuento",
+                        "siguiente cuento",
+                        "cuéntame otro",
+                        "una historia diferente",
+                        "otro más"
+                    ]
+                },
+                {
+                    "name": "TriviaIntent",
+                    "slots": [],
+                    "samples": [
+                        "jugar trivia",
+                        "trivia navideña",
+                        "juguemos trivia",
+                        "preguntas de navidad",
+                        "quiz de navidad",
+                        "empezar trivia"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "la respuesta es {answer}",
+                        "{answer}",
+                        "opción {answer}",
+                        "creo que es la {answer}",
+                        "mi respuesta es {answer}"
+                    ]
+                },
+                {
+                    "name": "SantaTrackerIntent",
+                    "slots": [],
+                    "samples": [
+                        "dónde está santa",
+                        "dónde está papá noel",
+                        "seguir a santa",
+                        "rastrear a santa",
+                        "localizar a santa",
+                        "por dónde va santa",
+                        "dónde se encuentra santa ahora"
+                    ]
+                },
+                {
+                    "name": "AdventCalendarIntent",
+                    "slots": [],
+                    "samples": [
+                        "abre el calendario de adviento",
+                        "calendario de adviento",
+                        "abrir la ventana del adviento",
+                        "sorpresa del día",
+                        "qué hay hoy en el adviento",
+                        "mi sorpresa de adviento"
+                    ]
+                },
+                {
+                    "name": "NaughtyOrNiceIntent",
+                    "slots": [],
+                    "samples": [
+                        "estoy en la lista de buenos",
+                        "soy bueno o malo",
+                        "estoy en la lista de traviesos",
+                        "santa cree que soy bueno",
+                        "qué lista estoy",
+                        "me portó bien",
+                        "fui bueno este año"
+                    ]
+                },
+                {
+                    "name": "GiftSuggestionIntent",
+                    "slots": [
+                        {
+                            "name": "person",
+                            "type": "PersonType"
+                        }
+                    ],
+                    "samples": [
+                        "dame ideas de regalos",
+                        "sugiéreme regalos para {person}",
+                        "qué le regalo a {person}",
+                        "ideas de regalos para {person}",
+                        "regalos para {person}",
+                        "qué puedo regalar a {person}"
+                    ]
+                },
+                {
+                    "name": "SantaMessageIntent",
+                    "slots": [],
+                    "samples": [
+                        "qué dice santa sobre mí",
+                        "mensaje de santa",
+                        "santa tiene un mensaje",
+                        "qué opina santa de mí",
+                        "palabras de santa"
+                    ]
+                },
+                {
+                    "name": "ChristmasSoundsIntent",
+                    "slots": [],
+                    "samples": [
+                        "pon sonidos navideños",
+                        "sonidos de navidad",
+                        "cascabeles",
+                        "campanas navideñas",
+                        "ho ho ho",
+                        "risa de santa"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "PersonType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "mamá",
+                                "synonyms": [
+                                    "madre",
+                                    "mami",
+                                    "ma"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "papá",
+                                "synonyms": [
+                                    "padre",
+                                    "papi",
+                                    "pa"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hermano",
+                                "synonyms": [
+                                    "hermanos"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hermana",
+                                "synonyms": [
+                                    "hermanas"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "abuelo",
+                                "synonyms": [
+                                    "abuelito",
+                                    "abuelos"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "abuela",
+                                "synonyms": [
+                                    "abuelita",
+                                    "abuelas"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "amigo",
+                                "synonyms": [
+                                    "amigos",
+                                    "amiga",
+                                    "amigas"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tío",
+                                "synonyms": [
+                                    "tíos"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tía",
+                                "synonyms": [
+                                    "tías"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "primo",
+                                "synonyms": [
+                                    "primos",
+                                    "prima",
+                                    "primas"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pareja",
+                                "synonyms": [
+                                    "novio",
+                                    "novia",
+                                    "esposo",
+                                    "esposa"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hijo",
+                                "synonyms": [
+                                    "hija",
+                                    "hijos",
+                                    "hijas",
+                                    "niño",
+                                    "niña"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mascota",
+                                "synonyms": [
+                                    "perro",
+                                    "gato",
+                                    "mascota"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "AddGiftIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "gift",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.gift"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "RemoveGiftIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "gift",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.removeGift"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "GiftSuggestionIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "person",
+                            "type": "PersonType",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.person"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.gift",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "¿Qué regalo te gustaría pedir a Santa?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Dime qué regalo quieres añadir a tu carta."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.removeGift",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "¿Qué regalo quieres quitar de tu lista?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Dime qué regalo ya no quieres pedir."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.person",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "¿Para quién necesitas ideas de regalos?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Dime para quién buscas un regalo."
+                    }
+                ]
+            }
+        ]
+    }
+}

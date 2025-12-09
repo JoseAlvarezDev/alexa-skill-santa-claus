@@ -1,0 +1,160 @@
+{
+    "suggestions": {
+        "mamá": [
+            "un set de spa para relajarse en casa",
+            "un libro de su autor favorito",
+            "una planta bonita para decorar",
+            "una bufanda suave y elegante",
+            "un álbum de fotos familiar personalizado",
+            "unos aretes o un collar especial",
+            "una caja de chocolates gourmet",
+            "una suscripción a su revista o servicio favorito",
+            "un set de velas aromáticas",
+            "una manta súper suave"
+        ],
+        "papá": [
+            "una herramienta que le haga falta",
+            "un libro sobre su hobby favorito",
+            "unos auriculares de buena calidad",
+            "una cartera de piel",
+            "un set de cuidado personal",
+            "una camiseta de su equipo favorito",
+            "un juego de mesa para jugar en familia",
+            "una suscripción a un servicio de streaming",
+            "un reloj elegante",
+            "accesorios para su coche"
+        ],
+        "hermano": [
+            "un videojuego que le guste",
+            "una camiseta de su banda favorita",
+            "auriculares inalámbricos",
+            "un libro o cómic de su serie favorita",
+            "una funda personalizada para el móvil",
+            "un juego de mesa divertido",
+            "una sudadera cómoda",
+            "una pelota o equipo deportivo",
+            "una lámpara LED para su habitación",
+            "un set de construcción o LEGO"
+        ],
+        "hermana": [
+            "un set de maquillaje o cuidado de piel",
+            "un diario o agenda bonita",
+            "una joya como un collar o pulsera",
+            "un libro de su género favorito",
+            "un peluche adorable",
+            "una funda de móvil bonita",
+            "accesorios para el pelo",
+            "un set de pinturas o arte",
+            "una lámpara de ambiente",
+            "ropa cómoda y a la moda"
+        ],
+        "abuelo": [
+            "un álbum de fotos de la familia",
+            "una manta suave y cálida",
+            "un libro de crucigramas o sudokus",
+            "unas zapatillas de casa cómodas",
+            "un marco digital para fotos",
+            "una taza personalizada",
+            "un set de herramientas de jardín",
+            "chocolates o dulces especiales",
+            "un reloj de fácil lectura",
+            "una bufanda o gorro de invierno"
+        ],
+        "abuela": [
+            "un chal o manta tejida suave",
+            "plantas de interior fáciles de cuidar",
+            "un kit de jardinería",
+            "un libro de recetas",
+            "un set de té con tazas bonitas",
+            "un álbum de fotos familiar",
+            "una joya elegante",
+            "zapatillas cómodas de casa",
+            "cremas hidratantes de calidad",
+            "un florero con flores frescas"
+        ],
+        "amigo": [
+            "un juego de mesa para jugar juntos",
+            "una camiseta divertida",
+            "dulces o snacks que le gusten",
+            "un libro que te haya gustado",
+            "una taza personalizada con un chiste",
+            "accesorios para su hobby",
+            "un vale para un café o comida juntos",
+            "un puzzle desafiante",
+            "unos calcetines divertidos",
+            "una planta pequeña para su escritorio"
+        ],
+        "tío": [
+            "una botella de vino o licor especial",
+            "un libro de cocina o recetas",
+            "herramientas para su hobby",
+            "un juego de cartas o dados",
+            "una corbata elegante",
+            "un set de cuidado de barba",
+            "una taza térmica para café",
+            "un set de parrilla o barbacoa",
+            "chocolates gourmet",
+            "una agenda o planificador"
+        ],
+        "tía": [
+            "un set de spa casero",
+            "un libro de su autor favorito",
+            "velas aromáticas de calidad",
+            "un pañuelo o bufanda elegante",
+            "una planta decorativa",
+            "chocolates o dulces especiales",
+            "un marco de fotos bonito",
+            "un set de cocina útil",
+            "una bolsa o cartera",
+            "cremas o productos de belleza"
+        ],
+        "primo": [
+            "un videojuego popular",
+            "dulces o golosinas variadas",
+            "un juguete de moda",
+            "material de arte y manualidades",
+            "un libro de aventuras",
+            "un juego de construcción",
+            "ropa deportiva",
+            "una lámpara o luz nocturna divertida",
+            "un peluche",
+            "un set de experimentos científicos"
+        ],
+        "pareja": [
+            "una experiencia juntos como una cena especial",
+            "un álbum de fotos de sus momentos juntos",
+            "joyería significativa",
+            "una escapada romántica",
+            "un reloj elegante",
+            "perfume o colonia de su marca favorita",
+            "un libro que puedan leer juntos",
+            "una manta para noches de películas",
+            "flores con una nota especial",
+            "un objeto personalizado con sus iniciales"
+        ],
+        "hijo": [
+            "el juguete que más desea",
+            "juegos educativos y divertidos",
+            "libros de su serie favorita",
+            "material de arte y creatividad",
+            "ropa con sus personajes favoritos",
+            "una bicicleta o patinete",
+            "un instrumento musical para principiantes",
+            "juegos de construcción",
+            "una tienda de campaña de interior",
+            "un peluche especial"
+        ],
+        "mascota": [
+            "juguetes nuevos y resistentes",
+            "una cama cómoda y suave",
+            "snacks y premios especiales",
+            "un nuevo collar o correa bonita",
+            "un rascador para gatos",
+            "una nueva casa o casita",
+            "ropa abrigadora para invierno",
+            "un comedero automático",
+            "juguetes interactivos",
+            "una manta propia"
+        ]
+    }
+}

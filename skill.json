@@ -1,0 +1,75 @@
+{
+    "manifest": {
+        "publishingInformation": {
+            "locales": {
+                "es-ES": {
+                    "summary": "Tu compañero navideño: cuenta regresiva, carta a Santa, cuentos, trivia y mucho más",
+                    "examplePhrases": [
+                        "Alexa, abre Santa Claus",
+                        "Alexa, pregunta a Santa Claus cuánto falta para Navidad",
+                        "Alexa, dile a Santa Claus que quiero escribir mi carta"
+                    ],
+                    "keywords": [
+                        "navidad",
+                        "santa claus",
+                        "papá noel",
+                        "regalos",
+                        "carta",
+                        "cuenta regresiva",
+                        "cuentos",
+                        "villancicos"
+                    ],
+                    "name": "Santa Claus",
+                    "description": "¡Vive la magia de la Navidad con Santa Claus! Este skill te ofrece:\n\n🎄 CUENTA REGRESIVA: Descubre cuánto falta para la noche mágica del 24 de diciembre.\n\n✉️ CARTA A SANTA: Escribe, escucha y modifica tu carta a Santa Claus. Guarda tu lista de deseos y Santa la recibirá.\n\n📚 CUENTOS NAVIDEÑOS: Disfruta de hermosas historias de Navidad con efectos de sonido.\n\n🎮 TRIVIA NAVIDEÑA: Pon a prueba tus conocimientos sobre la Navidad.\n\n🦌 SEGUIMIENTO DE SANTA: El 24 de diciembre, sigue el viaje de Santa por el mundo.\n\n📅 CALENDARIO DE ADVIENTO: Abre una sorpresa cada día desde el 1 al 24 de diciembre.\n\n⭐ LISTA DE BUENOS: ¿Estás en la lista de niños buenos? ¡Descúbrelo!\n\n🎁 SUGERENCIAS DE REGALOS: Obtén ideas de regalos para tus seres queridos.\n\n¡Ho Ho Ho! ¡Feliz Navidad!",
+                    "smallIconUri": "https://example.com/santa-icon-108.png",
+                    "largeIconUri": "https://example.com/santa-icon-512.png"
+                },
+                "es-MX": {
+                    "summary": "Tu compañero navideño: cuenta regresiva, carta a Santa, cuentos, trivia y mucho más",
+                    "examplePhrases": [
+                        "Alexa, abre Santa Claus",
+                        "Alexa, pregunta a Santa Claus cuánto falta para Navidad",
+                        "Alexa, dile a Santa Claus que quiero escribir mi carta"
+                    ],
+                    "keywords": [
+                        "navidad",
+                        "santa claus",
+                        "regalos",
+                        "carta",
+                        "cuenta regresiva",
+                        "cuentos"
+                    ],
+                    "name": "Santa Claus",
+                    "description": "¡Vive la magia de la Navidad con Santa Claus! Cuenta regresiva, carta a Santa, cuentos navideños, trivia, seguimiento de Santa y mucho más. ¡Ho Ho Ho!",
+                    "smallIconUri": "https://example.com/santa-icon-108.png",
+                    "largeIconUri": "https://example.com/santa-icon-512.png"
+                }
+            },
+            "isAvailableWorldwide": true,
+            "testingInstructions": "Skill de Navidad con múltiples funcionalidades. Probar cuenta regresiva, carta a Santa (escribir, leer, modificar), cuentos, trivia y calendario de adviento.",
+            "category": "GAMES_TRIVIA_AND_ACCESSORIES"
+        },
+        "apis": {
+            "custom": {}
+        },
+        "manifestVersion": "1.0",
+        "privacyAndCompliance": {
+            "allowsPurchases": false,
+            "usesPersonalInfo": false,
+            "isChildDirected": true,
+            "isExportCompliant": true,
+            "containsAds": false,
+            "locales": {
+                "es-ES": {
+                    "privacyPolicyUrl": "https://example.com/privacy",
+                    "termsOfUseUrl": "https://example.com/terms"
+                },
+                "es-MX": {
+                    "privacyPolicyUrl": "https://example.com/privacy",
+                    "termsOfUseUrl": "https://example.com/terms"
+                }
+            }
+        },
+        "permissions": []
+    }
+}

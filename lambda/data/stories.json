@@ -1,0 +1,34 @@
+{
+    "stories": [
+        {
+            "id": 1,
+            "title": "El Reno de la Nariz Roja",
+            "content": "<audio src='soundbank://soundlibrary/animals/amzn_sfx_bear_groan_roar_01'/> Había una vez, en el Polo Norte, un pequeño reno llamado Rodolfo. <break time='500ms'/> A diferencia de los demás renos, Rodolfo tenía una nariz muy especial: ¡brillaba con una luz roja intensísima! <break time='300ms'/> Los otros renos se burlaban de él y no lo dejaban jugar. <audio src='soundbank://soundlibrary/weather/wind/wind_01'/> Pero una Nochebuena, había una terrible tormenta de nieve. Santa Claus no podía ver el camino. <break time='500ms'/> Entonces vio a Rodolfo y su nariz brillante. <break time='300ms'/> '¡Rodolfo!' exclamó Santa, '¿guiarás mi trineo esta noche?' <break time='500ms'/> <audio src='soundbank://soundlibrary/bells/bells_background_01'/> Y así, Rodolfo se convirtió en el reno más famoso de todos, guiando el trineo de Santa a través de la noche. Desde entonces, todos los renos respetan y admiran a Rodolfo. ¡Ho Ho Ho! <audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_01'/>"
+        },
+        {
+            "id": 2,
+            "title": "El Muñeco de Nieve Mágico",
+            "content": "<audio src='soundbank://soundlibrary/weather/wind/wind_03'/> Era una mañana fría de diciembre cuando María y Pedro decidieron hacer un muñeco de nieve. <break time='300ms'/> Le pusieron una bufanda roja, botones negros y una zanahoria como nariz. <break time='500ms'/> Pero lo más especial fue el sombrero viejo que encontraron en el ático del abuelo. <break time='300ms'/> <audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_02'/> Cuando pusieron el sombrero sobre la cabeza del muñeco, ¡algo mágico sucedió! El muñeco cobró vida y comenzó a bailar. <break time='500ms'/> 'Hola, niños', dijo con voz alegre, 'mi nombre es Nevado'. <break time='300ms'/> Durante todo el día jugaron juntos, pero cuando el sol comenzó a ponerse, Nevado les dijo: <break time='300ms'/> 'No estén tristes, volveré cada invierno cuando la nieve caiga'. <audio src='soundbank://soundlibrary/bells/bells_background_01'/> Y desde entonces, cada Navidad, María y Pedro esperan la primera nevada para volver a ver a su amigo Nevado."
+        },
+        {
+            "id": 3,
+            "title": "La Estrella de Belén",
+            "content": "<audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_01'/> Hace muchísimos años, en el cielo apareció una estrella más brillante que todas las demás. <break time='500ms'/> Esta estrella tenía una misión muy especial: guiar a tres sabios reyes hacia un lugar importante. <break time='300ms'/> Los Reyes Magos, Melchor, Gaspar y Baltasar, siguieron la estrella durante muchas noches. <audio src='soundbank://soundlibrary/animals/amzn_sfx_horse_gallop_4x_02'/> <break time='500ms'/> Viajaron por desiertos y montañas, siempre mirando al cielo. <break time='300ms'/> Finalmente, la estrella se detuvo sobre un pequeño establo en Belén. <break time='500ms'/> Allí encontraron a un bebé muy especial, y le ofrecieron sus regalos: oro, incienso y mirra. <audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_02'/> <break time='300ms'/> Desde entonces, la estrella de Belén brilla cada Navidad, recordándonos el amor, la esperanza y la paz. <audio src='soundbank://soundlibrary/bells/bells_background_01'/>"
+        },
+        {
+            "id": 4,
+            "title": "El Cascanueces",
+            "content": "<audio src='soundbank://soundlibrary/bells/bells_background_01'/> Era Nochebuena y la pequeña Clara recibió un regalo muy especial de su padrino: un cascanueces de madera con forma de soldado. <break time='500ms'/> Clara lo amó desde el primer momento. <break time='300ms'/> Esa noche, cuando todos dormían, algo mágico sucedió. <audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_01'/> <break time='500ms'/> El cascanueces cobró vida y Clara se volvió del tamaño de un ratón. <break time='300ms'/> Juntos viajaron al Reino de los Dulces, un lugar maravilloso donde todo estaba hecho de caramelos y chocolate. <break time='500ms'/> Allí conocieron al Hada de Azúcar, quien les dio la bienvenida con un hermoso baile. <audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_02'/> <break time='300ms'/> Cuando Clara despertó a la mañana siguiente, abrazó a su cascanueces, guardando para siempre el recuerdo de esa noche mágica. <audio src='soundbank://soundlibrary/bells/bells_background_01'/>"
+        },
+        {
+            "id": 5,
+            "title": "El Elfo Olvidadizo",
+            "content": "<audio src='soundbank://soundlibrary/toys/toys_07'/> En el taller de Santa Claus vivía un pequeño elfo llamado Tintín. <break time='300ms'/> Tintín era muy trabajador, pero tenía un problema: ¡siempre olvidaba todo! <break time='500ms'/> Un día, Santa le encargó una misión importante: llevar una lista de juguetes al almacén. <break time='300ms'/> Pero Tintín se distrajo viendo los copos de nieve y perdió la lista. <audio src='soundbank://soundlibrary/weather/wind/wind_01'/> <break time='500ms'/> Muy preocupado, Tintín buscó por todas partes. Los otros elfos lo ayudaron a buscar. <break time='300ms'/> Finalmente, la encontraron: ¡estaba en su propio bolsillo todo el tiempo! <break time='500ms'/> <audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_01'/> Santa se rio con cariño y le dijo: 'Tintín, lo importante no es nunca olvidar, sino siempre encontrar'. Desde entonces, Tintín lleva una libretita donde anota todo, y se convirtió en el elfo más organizado del Polo Norte. <audio src='soundbank://soundlibrary/bells/bells_background_01'/>"
+        },
+        {
+            "id": 6,
+            "title": "El Regalo Más Grande",
+            "content": "<audio src='soundbank://soundlibrary/bells/bells_background_01'/> Tomás era un niño que vivía en una pequeña casa en las montañas. <break time='300ms'/> Su familia no tenía mucho dinero, y él sabía que esta Navidad no habría muchos regalos. <break time='500ms'/> Pero Tomás tuvo una idea. <break time='300ms'/> Pasó semanas recogiendo ramitas, hojas secas y piedras de colores. <audio src='soundbank://soundlibrary/nature/nature_01'/> <break time='500ms'/> Con mucho cariño, creó un pequeño pesebre hecho a mano para su mamá. <break time='300ms'/> Cuando llegó Nochebuena, Tomás le dio su regalo con un poco de vergüenza. <break time='500ms'/> Su mamá abrió la caja y sus ojos se llenaron de lágrimas de felicidad. <audio src='soundbank://soundlibrary/magic/amzn_sfx_magic_mystery_02'/> <break time='300ms'/> 'Este es el regalo más hermoso que he recibido', dijo abrazándolo fuerte. <break time='500ms'/> Tomás aprendió ese día que los mejores regalos no se compran con dinero, sino que se hacen con amor. <audio src='soundbank://soundlibrary/bells/bells_background_01'/>"
+        }
+    ]
+}

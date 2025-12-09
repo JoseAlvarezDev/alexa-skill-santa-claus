@@ -1,0 +1,124 @@
+{
+    "calendar": [
+        {
+            "day": 1,
+            "type": "fact",
+            "content": "¿Sabías que Santa Claus recibe más de un millón de cartas cada año? ¡Asegúrate de escribir la tuya!"
+        },
+        {
+            "day": 2,
+            "type": "joke",
+            "content": "¿Por qué Santa Claus baja por la chimenea? Porque le sienta muy bien. ¡Ho ho ho!"
+        },
+        {
+            "day": 3,
+            "type": "activity",
+            "content": "Hoy es un buen día para hacer una decoración navideña. ¿Por qué no haces un copo de nieve de papel?"
+        },
+        {
+            "day": 4,
+            "type": "fact",
+            "content": "Los renos son los únicos ciervos donde tanto machos como hembras tienen astas. ¡Son muy especiales!"
+        },
+        {
+            "day": 5,
+            "type": "song",
+            "content": "Hoy te regalo una canción: ¡Cascabel, cascabel, lindo cascabel! Con sus notas de alegría va anunciando él."
+        },
+        {
+            "day": 6,
+            "type": "joke",
+            "content": "¿Qué le dijo un árbol de Navidad a otro? ¡Estoy harto de las bolitas! ¡Jo jo jo!"
+        },
+        {
+            "day": 7,
+            "type": "activity",
+            "content": "¿Qué tal si hoy escribes una tarjeta de Navidad para alguien especial? Un detalle hecho con amor vale mucho."
+        },
+        {
+            "day": 8,
+            "type": "fact",
+            "content": "El primer árbol de Navidad decorado con luces eléctricas fue en 1882. ¡Gracias a Thomas Edison!"
+        },
+        {
+            "day": 9,
+            "type": "joke",
+            "content": "¿Cuál es el colmo de un árbol de Navidad? Tener que aguantar las bolas todo el año. ¡Ja ja ja!"
+        },
+        {
+            "day": 10,
+            "type": "activity",
+            "content": "Hoy es perfecto para hornear galletas navideñas. El aroma de canela y jengibre llena el hogar de magia."
+        },
+        {
+            "day": 11,
+            "type": "fact",
+            "content": "Las luces del árbol de Navidad fueron inventadas como alternativa segura a las velas que se usaban antes."
+        },
+        {
+            "day": 12,
+            "type": "song",
+            "content": "Pero mira cómo beben los peces en el río, pero mira cómo beben por ver a Dios nacío."
+        },
+        {
+            "day": 13,
+            "type": "joke",
+            "content": "¿Por qué el muñeco de nieve lleva sombrero? Porque no tiene pelo. ¡Jo jo jo!"
+        },
+        {
+            "day": 14,
+            "type": "activity",
+            "content": "Hoy puedes hacer un acto de bondad: ayudar a alguien, compartir un juguete o dar un abrazo fuerte."
+        },
+        {
+            "day": 15,
+            "type": "fact",
+            "content": "Rodolfo el Reno no apareció hasta 1939, cuando fue creado para una campaña de una tienda llamada Montgomery Ward."
+        },
+        {
+            "day": 16,
+            "type": "joke",
+            "content": "¿Qué le dice una galleta a otra en Navidad? Crack-crack, ¡que viene Santa Claus!"
+        },
+        {
+            "day": 17,
+            "type": "activity",
+            "content": "¿Por qué no cantas villancicos con tu familia hoy? La música une a las personas y llena de alegría."
+        },
+        {
+            "day": 18,
+            "type": "fact",
+            "content": "El Polo Norte, donde vive Santa, tiene 6 meses de noche continua en invierno. ¡Perfecto para trabajar en los regalos!"
+        },
+        {
+            "day": 19,
+            "type": "song",
+            "content": "Noche de paz, noche de amor, todo duerme en derredor. Entre los astros que esparcen su luz."
+        },
+        {
+            "day": 20,
+            "type": "joke",
+            "content": "¿Por qué Santa Claus siempre está contento? Porque sabe dónde viven todos los niños buenos. ¡Ho ho ho!"
+        },
+        {
+            "day": 21,
+            "type": "activity",
+            "content": "Hoy es el día más corto del año. ¡Aprovecha para ver una película navideña con tu familia!"
+        },
+        {
+            "day": 22,
+            "type": "fact",
+            "content": "Los elfos de Santa trabajan todo el año para preparar los juguetes. ¿Te imaginas cuántos millones hacen?"
+        },
+        {
+            "day": 23,
+            "type": "joke",
+            "content": "¿Qué hace Santa cuando los elfos se portan mal? Los pone en la lista de elfos traviesos. ¡Ja ja!"
+        },
+        {
+            "day": 24,
+            "type": "special",
+            "content": "¡HOY ES NOCHEBUENA! Esta noche Santa Claus volará por todo el mundo en su trineo mágico. Prepara las galletas, la leche para Santa y las zanahorias para los renos. ¡Que tengas una noche muy mágica! ¡Ho Ho Ho! ¡Feliz Navidad!"
+        }
+    ]
+}

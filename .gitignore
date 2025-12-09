@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# OS files
+.DS_Store
+*.log
+
+# ASK CLI
+.ask/
+ask-states.json
+
+# IDE
+.vscode/
+.idea/
+
+# Deployment
+*.zip
+lambda.zip
